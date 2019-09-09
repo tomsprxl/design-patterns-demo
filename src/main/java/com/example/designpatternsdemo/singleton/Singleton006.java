@@ -11,6 +11,7 @@ package com.example.designpatternsdemo.singleton;
  */
 public enum Singleton006 {
 
+
     INSTANCE;
 
     private String objName;
@@ -27,7 +28,6 @@ public enum Singleton006 {
 
 
     public static void main(String[] args) {
-
         // 单例测试
         Singleton006 firstSingleton = Singleton006.INSTANCE;
         firstSingleton.setObjName("firstName");
